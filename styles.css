@@ -1,0 +1,25 @@
+*{
+    font-family: helvetica, monospace, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: maroon;
+}
+
+h2, h1{
+    color: chocolate;
+}
+p strong{
+    color: coral;
+    font-size: 18px;
+}
+li strong{
+    color: brown;
+    font-size: 18px;
+}
+img{
+    height: auto;
+    width: 450;
+}
