@@ -1,5 +1,22 @@
 *{
     font-family: helvetica, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.container div{
+    margin: 20px;
+}
+h1.title{
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 a{
@@ -8,18 +25,34 @@ a{
     color: maroon;
 }
 
-h2, h1{
+.title{
     color: chocolate;
+    margin-bottom: 10px;
 }
-p strong{
-    color: coral;
-    font-size: 18px;
-}
-li strong{
+strong{
     color: brown;
     font-size: 18px;
 }
-img{
+.header img{
     height: auto;
-    width: 450;
+    width: 500px;
+}
+
+.header p{
+    margin-top: 10px;
+}
+.recipe-list ul, .ingredient ul, .method ol{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.recipe-list ul li{
+    padding: 3px;
+}
+
+.button button a{
+    background-color: white;
+    display: block;
+    height: auto;
+    width: 200px;
 }
